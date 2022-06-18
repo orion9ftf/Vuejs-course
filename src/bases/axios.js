@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiKey = API_KEY
+const apiKey = 'wtbGsPLEbf6NX0RYV22T3G2NWwHrSUFg'
 // https://api.giphy.com/v1/gifs/random?api_key=
 
 // fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`)
@@ -22,6 +22,8 @@ const apiKey = API_KEY
       api_key: apiKey
     }
   })
+
+export default giphyApi
 
   giphyApi.get('/random')
     .then(resp => {

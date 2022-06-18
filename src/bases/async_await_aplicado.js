@@ -1,4 +1,3 @@
-console.log('Hola!!')
 import giphyApi from "./bases/axios"
 
 const getImage = async () => {
